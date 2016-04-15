@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1456745-ED92-4EB6-8905-E64DC1E47277}</ProjectGuid>
+    <ProjectGuid>{E32DFB27-7BEE-2983-154E-940DDBC8789E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,9 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\EnemyController1.cs" />
      <Compile Include="Assets\_Scripts\GameController.cs" />
+     <Compile Include="Assets\_Scripts\GameController2.cs" />
+     <Compile Include="Assets\_Scripts\GameController3.cs" />
      <Compile Include="Assets\_Scripts\InstructionsController.cs" />
+     <Compile Include="Assets\_Scripts\Level2PlayerController.cs" />
      <Compile Include="Assets\_Scripts\MenuController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\PlayerController3.cs" />
+     <Compile Include="Assets\_Scripts\PlayerFollow.cs" />
+     <Compile Include="Assets\_Scripts\ZombieController.cs" />
      <Compile Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -97,6 +103,15 @@
      <Compile Include="Assets\_Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\_Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\_Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_DoubleSide.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_funsui.shader" />
+     <None Include="Assets\ZRNAssets\006441_09646_1_1\Shaders\su_Zmap_way.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
