@@ -114,6 +114,7 @@ public class GameController3 : MonoBehaviour
         this.WinGameLabel.gameObject.SetActive(true);
         this.scoreLabel.gameObject.SetActive(false);
         this.restartButton.gameObject.SetActive(true);
+        SceneManager.LoadScene("LastPage"); 
 
     }
 

@@ -16,7 +16,7 @@ public class MenuController : MonoBehaviour {
 	}
     public void StartButtonClick()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Instructions1");
     }
     public void InstructionButtonClick()
     {

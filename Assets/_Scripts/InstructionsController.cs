@@ -18,4 +18,9 @@ public class InstructionsController : MonoBehaviour {
     {
         SceneManager.LoadScene("menu");
     }
+
+    public void PlayButtonClick()
+    {
+        SceneManager.LoadScene("main");
+    }
 }

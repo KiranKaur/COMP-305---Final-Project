@@ -95,7 +95,7 @@ public class PlayerController3 : MonoBehaviour
     //private methods
     private void _resetPlayer()
     {
-        this._transform.position = new Vector3(17f, 48f, 490f);
+        this._transform.position = new Vector3(-664f, 47f, -507f);
 
     }
 }

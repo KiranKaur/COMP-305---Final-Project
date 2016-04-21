@@ -107,7 +107,9 @@ public class GameController : MonoBehaviour {
         this.livesLabel.gameObject.SetActive(false);
         this.WinGameLabel.gameObject.SetActive(true);
         this.scoreLabel.gameObject.SetActive(false);
-        this.restartButton.gameObject.SetActive(true);
+       // this.restartButton.gameObject.SetActive(true);
+        // Application.LoadLevel("Level1");
+        SceneManager.LoadScene("Instructions2");
 
     }
 

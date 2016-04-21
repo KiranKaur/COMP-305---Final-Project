@@ -46,15 +46,19 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_Scripts\EnemyController1.cs" />
+     <Compile Include="Assets\_Scripts\FirstLevelController.cs" />
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\GameController2.cs" />
      <Compile Include="Assets\_Scripts\GameController3.cs" />
      <Compile Include="Assets\_Scripts\InstructionsController.cs" />
+     <Compile Include="Assets\_Scripts\LastPageController.cs" />
      <Compile Include="Assets\_Scripts\Level2PlayerController.cs" />
      <Compile Include="Assets\_Scripts\MenuController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\PlayerController3.cs" />
      <Compile Include="Assets\_Scripts\PlayerFollow.cs" />
+     <Compile Include="Assets\_Scripts\SecondLevelController.cs" />
+     <Compile Include="Assets\_Scripts\ThirdLevelController.cs" />
      <Compile Include="Assets\_Scripts\ZombieController.cs" />
      <Compile Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
